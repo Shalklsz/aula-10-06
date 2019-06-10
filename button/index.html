@@ -7,11 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-    #app {
-        background-color: black;
-        width: 500px;
-        height: 500px;
-    }</style>
+    #app {}
+    </style>
 </head>
 
 <body>
@@ -19,7 +16,10 @@
 
     </div>
     <script>
-        console.log(document.querySelector('#app'));
+        var app = document.getElementById('app');
+        app.style.backgroundColor = "black";
+        app.style.width = "800px";
+        app.style.height = "400px";
     </script>
 </body>
 
